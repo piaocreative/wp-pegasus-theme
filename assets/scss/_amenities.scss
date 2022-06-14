@@ -1,0 +1,271 @@
+.about-section {
+    padding: 90px 0;
+
+    h2 {
+        font-size: 48px;
+        line-height: 50px;
+        font-weight: 700;
+        color: #650038;
+        margin: 0 0 10px 0;
+        padding: 0;
+        text-transform: uppercase;
+
+        span {
+            color: #5a5a5a;
+        }        
+    }
+
+    .sub-title {
+        font-size: 24px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 300;
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+
+    p {
+        line-height: 24px;
+        color: #5a5a5a;
+        font-size: 14px;
+    }
+
+    .image-section {
+        padding: 0 15px;
+        position: relative;
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        @media screen and (min-width: 1400px) {
+            &:before {
+                content: "";
+                display: block;
+                right: -15px;
+                top: -30px;
+                width: 670px;
+                height: 390px;
+                position: absolute;
+                z-index:-1;
+                border: 5px solid #f9f9f5;
+            }
+        }        
+    }
+}
+
+.community-section {
+    padding: 145px 0 115px 0;
+
+    background-position: center top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    .w-xl-50{
+        margin-bottom: 30px;
+    }
+
+    .image-wrapper {
+        padding: 0 15px;
+
+        img {
+            width: 100%;        
+        }
+    }
+
+    .featuers {
+        h2 {
+            text-transform: uppercase;
+            font-size: 40px;
+            line-height: 50px;
+            color: #650038;
+            font-weight: 700;
+            margin: 0 0 20px 0;
+        }
+
+        .ul-list {
+            li {
+                color: #000;
+            }
+        }
+
+        .buttons {
+            margin-top: 40px;
+            justify-content: flex-start;
+
+            @media screen and (max-width: 1399px) {
+                justify-content: center;    
+            }
+
+            .btn-1 {
+                color: #fff;
+
+                &:hover {
+                    color: #650038;
+                }
+            }
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #5a5a5a;
+        }
+    }
+}
+
+.features-section {
+    background: #fff;
+    padding: 145px 0;
+}
+
+.testimonials-section {
+    padding: 140px 0;
+
+    h2 {
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 700;
+        color: #650038;
+        margin: 0 0 100px 0;
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .testimonials-wrapper {
+        width: 100%;
+        position: relative;
+        padding-top: 140px;
+        margin-bottom: 60px;
+        
+        @media screen and (max-width: 1199px) {
+            padding: 0;
+            margin-bottom: 0;    
+        }        
+
+        .image-wrapper {
+            width: 555px;
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 10;
+            box-shadow: 18px 40px 40px rgba(0, 0, 0, 0.21);
+
+            img {
+                width: 100%;
+            }
+
+            @media screen and (min-width: 1200px) {
+                display: block;
+            }
+        }
+
+        .carousel-wrapper {
+            margin-left: 25%;
+            width: 75%;
+
+            .item {
+                background: #e7e5d0;
+                padding: 100px 50px;
+
+                p {                    
+                    font-size: 16px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    font-style: italic;
+                    font-family: "Poppins" sans-serif;
+                    margin-bottom: 15px;
+                    color: #1d3d45;
+                }
+
+                .avatar {
+                    width: 50px;
+                    height: 50px;
+                    overflow: hidden;
+                    border-radius: 50%;                    
+                    margin:  0 auto 10px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .client-name {
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #1d3d45;
+                }
+
+                .testimonial {
+                    text-align: center;
+                    width: 500px;
+                    margin: 0 0 0 auto;
+                }
+            }
+
+            .owl-carousel .owl-dots {
+                bottom: auto;
+                top: 0;                
+                text-align: right;
+                top: 20px;
+                right: 20px;
+                
+                button.owl-dot {
+                    background: #94d8ea;
+
+                    &.active {
+                        background: #4a7d8b;
+                    }
+
+                    span {
+                        display: block;
+                        width: 6px;
+                        height: 6px;
+                        background: #e7e5d0;
+                        margin: 0 auto;
+                        border-radius: 50%;
+                    }
+                }
+                
+            }
+
+            .quote {
+                position: absolute;
+                bottom: -45px;
+                z-index: 10;
+                color: #650038;
+                font-size: 70px;
+                right: 25px;
+            }
+        }
+    }
+}
+
+.page-template-page-amenities .testimonials-section .owl-nav {
+    display: none;
+}
+
+.middle-div {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 1399px) {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.w-xl-50 {
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+
+    @media screen and (max-width: 1399px) {
+        width: 100%;
+        flex: 1 0 100%;
+        min-width: 100%;
+    }
+}

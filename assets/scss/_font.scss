@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?4l7kva');
+    src:  url('../fonts/icomoon.eot?4l7kva#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?4l7kva') format('truetype'),
+      url('../fonts/icomoon.woff?4l7kva') format('woff'),
+      url('../fonts/icomoon.svg?4l7kva#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-phone:before {
+    content: "\e942";
+  }
+  .icon-envelop:before {
+    content: "\e945";
+  }
+  .icon-location2:before {
+    content: "\e948";
+  }
+  .icon-calendar:before {
+    content: "\e953";
+  }
+  .icon-user:before {
+    content: "\e971";
+  }
+  .icon-quotes-right:before {
+    content: "\e978";
+  }
+  .icon-plus:before {
+    content: "\ea0a";
+  }
+  .icon-minus:before {
+    content: "\ea0b";
+  }
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  

@@ -1,0 +1,56 @@
+.gallery-section {
+    padding-top: 75px;
+    padding-bottom: 85px;
+
+    .photo-gallerys {
+        display: block!important;
+
+        .item {
+            padding: 15px;
+            margin: 0;
+            width: 25%;
+            display: block;
+            
+            @media screen and (max-width: 767px) {
+                width: 100%!important;
+            }
+        }
+
+        .item-2 {
+            width: 50%;           
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .floor-plans-tabs li a {
+        font-size: 18px;
+        line-height: 50px;
+        font-weight: 400;
+        height: 50px;
+        color: #fff;
+        background: #650038;
+        padding: 0 30px;
+        width: auto;
+        border: 1px solid #650038;
+
+        &.active, &:hover {
+            background: #c5c29b;
+        }
+    }
+
+    .floor-plans-tabs {
+        justify-content: center;
+
+        li {
+            width: auto;
+        }
+
+        margin-bottom: 20px;
+
+    }
+    
+}
